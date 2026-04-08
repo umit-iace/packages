@@ -1,17 +1,15 @@
-#import "@local/typst-umit-tirol-bmim:0.2.0" as bmim: task
+#import "@local/umit-tirol-bmim:0.2.0" as bmim: task, hint
 
-#show: bmim.exam(
-  title: "Eingangstest",
-  course: ([Vorlesung],[VL]),
+#show: bmim.workbook(
+  course: [Vorlesung],
   authors: ("John Doe", "Jane Doe", "Max Mustermann"),
-  show-solution: "bottom",
-  empty-sheets: auto,
-  total-time: [90min],
-  show-hints: true,
-  lang: "de",
+  lang:"de",
+  show-solution: "inline",
 )
 
 #set math.equation(numbering: "(1.1)")
+
+= Systems
 
 #task(
   label: <task:main1>,
@@ -20,6 +18,7 @@
     $
       p & = s + 4
     $<eq:main1>
+    and @netwok2020.
   ],
   (
     points: 10,
@@ -57,7 +56,7 @@
     $
       p & = s + 4
     $<eq:main2>
-    and a reference to @eq:main1 in @task:main2.
+    and @netwok2020.
 
     Take a look in the solution
   ],
@@ -65,3 +64,25 @@
     Solution of @task:main2 is $1+1=2$.
   ]
 )
+
+== first subs
+
+#lorem(30)
+
+== second subs
+
+#lorem(30)
+
+#pagebreak()
+
+#lorem(30)
+
+= Second
+
+#lorem(30)
+
+#pagebreak()
+
+#lorem(30)
+
+#bibliography("sources.bib", title: "References")
