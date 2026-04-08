@@ -34,7 +34,7 @@ Create a new typst project based on this template locally.
 
 ```bash
 typst init @preview/umit-tirol-bmim
-cd typst-umit-tirol-bmim
+cd umit-tirol-bmim
 ```
 
 Or create a project on the typst web app based on this template.
