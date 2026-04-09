@@ -1,5 +1,5 @@
 #import "@preview/touying:0.7.1": *
-#import "@local/umit-tirol-bmim:0.2.0" as bmim: example, tip, hint
+#import "@local/bmim-suite:0.2.0" as bmim: example, tip, hint
 
 #show: bmim.slides(
   title: ("Control design stratgies for better results",

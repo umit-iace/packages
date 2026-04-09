@@ -1,4 +1,4 @@
-#import "@local/umit-tirol-bmim:0.2.0" as bmim: task
+#import "@local/bmim-suite:0.2.0" as bmim: task
 
 #show: bmim.exam(
   title: "Eingangstest",
