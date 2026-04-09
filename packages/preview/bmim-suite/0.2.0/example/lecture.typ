@@ -1,4 +1,4 @@
-#import "@local/bmim-suite:0.2.0" as bmim
+#import "@preview/bmim-suite:0.2.0" as bmim
 
 #show: bmim.lecture(
   lang: "de",

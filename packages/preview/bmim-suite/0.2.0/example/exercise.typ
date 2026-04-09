@@ -1,4 +1,4 @@
-#import "@local/bmim-suite:0.2.0" as bmim: task
+#import "@preview/bmim-suite:0.2.0" as bmim: task
 
 #show: bmim.exercise(
   title: "Übung 1",

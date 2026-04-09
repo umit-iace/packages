@@ -1,4 +1,4 @@
-#import "@local/bmim-suite:0.2.0" as bmim: task, hint
+#import "@preview/bmim-suite:0.2.0" as bmim: task, hint
 
 #show: bmim.workbook(
   course: [Vorlesung],

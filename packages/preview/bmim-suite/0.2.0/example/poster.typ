@@ -1,4 +1,4 @@
-#import "@local/bmim-suite:0.2.0" as bmim: poster-box
+#import "@preview/bmim-suite:0.2.0" as bmim: poster-box
 
 #show: bmim.poster(
   title:[],
