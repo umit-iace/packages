@@ -1,4 +1,4 @@
-#import "@preview/bmim-suite:0.2.0" as bmim: task
+#import "/src/lib.typ" as bmim: task
 
 #show: bmim.exam(
   title: "Eingangstest",
