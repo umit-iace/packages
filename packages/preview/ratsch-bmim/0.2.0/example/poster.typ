@@ -1,4 +1,4 @@
-#import "/src/lib.typ" as bmim: poster-box
+#import "@local/ratsch-bmim:0.2.0" as bmim: poster-box
 
 #show: bmim.poster(
   title:[],

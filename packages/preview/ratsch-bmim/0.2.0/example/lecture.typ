@@ -1,4 +1,4 @@
-#import "/src/lib.typ" as bmim
+#import "@local/ratsch-bmim:0.2.0" as bmim
 
 #show: bmim.lecture(
   lang: "de",

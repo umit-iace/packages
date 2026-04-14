@@ -1,4 +1,4 @@
-#import "/src/lib.typ" as bmim: task
+#import "@local/ratsch-bmim:0.2.0" as bmim: task
 
 #show: bmim.exercise(
   title: "Übung 1",
